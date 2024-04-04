@@ -38,7 +38,7 @@ function App() {
 
   useEffect(() => {
     getData();
-  }, []);
+  }, [data]);
   return (
     <div className="App">
      <p>Channel last updated at : {update_time}</p>
